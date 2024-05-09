@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+C:\PracticaArrays\.metadata\.plugins\org.eclipse.jdt.core
+3413270776.index
+534654838.index
