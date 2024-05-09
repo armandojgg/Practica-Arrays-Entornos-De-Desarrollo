@@ -49,25 +49,6 @@ public abstract class MisArrays {
 		
 	}
 	
-	/**
-	 * Recibe un array de números enteros entre 0 y 10 y devuelve en un entero el valor máximo de dicho array.
-	 * @param arrays
-	 * @return
-	 */
-	float maximaNota (float [] arrays) {
-		if (arrays == null || arrays.length == 0) {
-			throw new IllegalArgumentException ("El array está vacio");
-		} 
-		float maximo = arrays[0];
-		for (float num : arrays) {
-			if (num < 0 || num > 10) {
-				throw new IllegalArgumentException ("El número " + num + "no está entre 0 y 10");
-			}
-			 if (num > maximo) {
-				 maximo = num;
-			 }
-		}
-		return maximo;
-	}
+	float maximaNota
 	
 }
