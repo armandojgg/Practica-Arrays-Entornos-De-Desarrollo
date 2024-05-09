@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="PracticaArrays" tests="8" started="8" failures="1" errors="0" ignored="0">
+  <testsuite name="tests.Tests" time="0.038" displayname="Tests" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]">
+    <testcase name="testMediaNotas2" classname="tests.Tests" time="0.029" displayname="testMediaNotas2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMediaNotas2()]">
+      <failure>
+        <expected>La nota 11 no está entre 0 y 10</expected>
+        <actual>La nota11.0 no está entre 0 y 10</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;La nota 11 no está entre 0 y 10&gt; but was: &lt;La nota11.0 no está entre 0 y 10&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)&#13;
+	at tests.Tests.testMediaNotas2(Tests.java:23)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testMinimaNota" classname="tests.Tests" time="0.001" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota()]"/>
+    <testcase name="testMedianaNotas2" classname="tests.Tests" time="0.001" displayname="testMedianaNotas2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMedianaNotas2()]"/>
+    <testcase name="testMinimaNota2" classname="tests.Tests" time="0.0" displayname="testMinimaNota2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota2()]"/>
+    <testcase name="testMaximaNota2" classname="tests.Tests" time="0.0" displayname="testMaximaNota2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMaximaNota2()]"/>
+    <testcase name="testMaximaNota" classname="tests.Tests" time="0.0" displayname="testMaximaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMaximaNota()]"/>
+    <testcase name="testMedianaNotas" classname="tests.Tests" time="0.001" displayname="testMedianaNotas()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMedianaNotas()]"/>
+    <testcase name="testMediaNotas" classname="tests.Tests" time="0.001" displayname="testMediaNotas()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMediaNotas()]"/>
+  </testsuite>
+</testrun>

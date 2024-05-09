@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="PracticaArrays" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.Tests" time="0.018" displayname="Tests" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]">
+    <testcase name="testMinimaNota" classname="tests.Tests" time="0.016" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota()]"/>
+    <testcase name="testMinimaNota2" classname="tests.Tests" time="0.001" displayname="testMinimaNota2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota2()]"/>
+  </testsuite>
+</testrun>

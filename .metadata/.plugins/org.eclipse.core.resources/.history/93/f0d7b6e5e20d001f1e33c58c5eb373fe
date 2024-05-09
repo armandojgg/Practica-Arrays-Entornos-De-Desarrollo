@@ -1,0 +1,26 @@
+package tests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import util.MisArrays;
+
+class Tests {
+
+	@Test
+	public void testMinimaNota() {
+		float [] arrayPrueba = {7, 8, 3, 5, 10};
+		assertEquals(3, MisArrays.minimaNota(arrayPrueba));
+	}
+	
+	@Test
+	public void testMinimaNota2() {
+		try {
+		float[] arrayError = {};
+		MisArrays.minimaNota(arrayError);
+		} catch (IllegalArgumentException e) {
+			assertEquals("El array está vacio", e.getMessage());
+		}
+	}
+}

@@ -13,7 +13,7 @@ public abstract class MisArrays {
 	 * @return
 	 */
 	
-	public float mediaNotas(float[] arrays) {
+	public static float mediaNotas(float[] arrays) {
 		if (arrays == null || arrays.length == 0) {
 			throw new IllegalArgumentException("El array está vacio");
 		} 
@@ -33,7 +33,7 @@ public abstract class MisArrays {
 	 * @param arrays
 	 * @return
 	 */
-	float medianaNotas (float[] arrays) {
+	public static float medianaNotas (float[] arrays) {
 		if (arrays == null || arrays.length == 0) {
 			throw new IllegalArgumentException ("El array está vacio");
 		}
@@ -54,7 +54,7 @@ public abstract class MisArrays {
 	 * @param arrays
 	 * @return
 	 */
-	float maximaNota (float [] arrays) {
+	public static float maximaNota (float [] arrays) {
 		if (arrays == null || arrays.length == 0) {
 			throw new IllegalArgumentException ("El array está vacio");
 		} 
@@ -71,15 +71,15 @@ public abstract class MisArrays {
 	}
 	/**
 	 * Recibe un array de números enteros entre 0 y 10 y devuelve en un entero el valor mínimo de dicho array.
-	 * @param arrays
+	 * @param arrayError
 	 * @return
 	 */
-	float minimaNota (float [] arrays) {
-		if (arrays == null || arrays.length == 0) {
+	public static float minimaNota (float[] arrayError) {
+		if (arrayError == null || arrayError.length == 0) {
 			throw new IllegalArgumentException ("El array está vacio");
 		}
-		float minimo = arrays[0];
-		for (float num: arrays) {
+		float minimo = arrayError[0];
+		for (float num: arrayError) {
 			if (num < 0 || num > 10) {
 				throw new IllegalArgumentException ("El número " + num + " no está entre 0 y 10");
 			}

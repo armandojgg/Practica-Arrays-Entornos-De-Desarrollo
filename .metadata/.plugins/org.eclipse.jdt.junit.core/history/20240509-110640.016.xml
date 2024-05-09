@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="PracticaArrays" tests="5" started="5" failures="1" errors="0" ignored="0">
+  <testsuite name="tests.Tests" time="0.032" displayname="Tests" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]">
+    <testcase name="testMediaNotas2" classname="tests.Tests" time="0.018" displayname="testMediaNotas2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMediaNotas2()]"/>
+    <testcase name="testMinimaNota" classname="tests.Tests" time="0.001" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota()]"/>
+    <testcase name="testMinimaNota2" classname="tests.Tests" time="0.0" displayname="testMinimaNota2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota2()]"/>
+    <testcase name="testMedianaNotas" classname="tests.Tests" time="0.01" displayname="testMedianaNotas()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMedianaNotas()]">
+      <failure>
+        <expected>7.5</expected>
+        <actual>11.0</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;7.5&gt; but was: &lt;11.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:118)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:113)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:856)&#13;
+	at tests.Tests.testMedianaNotas(Tests.java:30)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testMediaNotas" classname="tests.Tests" time="0.0" displayname="testMediaNotas()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMediaNotas()]"/>
+  </testsuite>
+</testrun>

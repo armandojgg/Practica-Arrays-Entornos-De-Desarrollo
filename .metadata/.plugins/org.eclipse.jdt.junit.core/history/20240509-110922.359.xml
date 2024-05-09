@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="PracticaArrays" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.Tests" time="0.019" displayname="Tests" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]">
+    <testcase name="testMediaNotas2" classname="tests.Tests" time="0.011" displayname="testMediaNotas2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMediaNotas2()]"/>
+    <testcase name="testMinimaNota" classname="tests.Tests" time="0.001" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota()]"/>
+    <testcase name="testMedianaNotas2" classname="tests.Tests" time="0.001" displayname="testMedianaNotas2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMedianaNotas2()]"/>
+    <testcase name="testMinimaNota2" classname="tests.Tests" time="0.001" displayname="testMinimaNota2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota2()]"/>
+    <testcase name="testMaximaNota" classname="tests.Tests" time="0.001" displayname="testMaximaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMaximaNota()]"/>
+    <testcase name="testMedianaNotas" classname="tests.Tests" time="0.001" displayname="testMedianaNotas()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMedianaNotas()]"/>
+    <testcase name="testMediaNotas" classname="tests.Tests" time="0.001" displayname="testMediaNotas()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMediaNotas()]"/>
+  </testsuite>
+</testrun>

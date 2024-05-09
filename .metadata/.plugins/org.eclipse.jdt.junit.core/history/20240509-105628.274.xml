@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests" project="PracticaArrays" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="tests.Tests" time="0.026" displayname="Tests" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]">
+    <testcase name="testMinimaNota" classname="tests.Tests" time="0.018" displayname="testMinimaNota()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota()]"/>
+    <testcase name="testMinimaNota2" classname="tests.Tests" time="0.008" displayname="testMinimaNota2()" uniqueid="[engine:junit-jupiter]/[class:tests.Tests]/[method:testMinimaNota2()]">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	The method minimaNota(float[]) in the type MisArrays is not applicable for the arguments (int[])
+&#13;
+	at tests.Tests.testMinimaNota2(Tests.java:21)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
